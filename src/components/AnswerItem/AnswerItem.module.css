@@ -1,0 +1,40 @@
+.AnswerItem {
+  list-style-type: none;
+  box-sizing: border-box;
+  width: 18%;
+  height: 20%;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73F9F1;
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.10);
+}
+
+.AnswerItemNum {
+  margin: 0 auto;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #432483;
+}
+
+@media (max-width: 600px){
+  .AnswerItemNum {
+    font-size: 2rem;
+  }
+}
+
+.AnswerItem:hover {
+  background: #E66974;
+  transition: background .3s eas-in-out;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.30);
+}
+
+.AnswerItem:hover .AnswerItemNum {
+  color: white;
+}

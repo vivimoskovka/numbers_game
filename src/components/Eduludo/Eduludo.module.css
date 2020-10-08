@@ -1,0 +1,100 @@
+.Eduludo {
+  box-sizing: border-box;
+  padding: 30;
+  height: 100vh;
+  width: 100%;
+  margin: 0
+}
+
+.goBackButton {
+  width: 10%;
+  height: 5%;
+  position:absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 4px 4px 5px 5px rgba(0,0,0,0.10);
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  font-size: 90%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.EduludoWrapper {
+  padding-top: 30px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.Example {
+  font-family: 'Alfa Slab One', cursive;
+  margin: 0;
+  font-size: 700%;
+  color: #471D5E;
+  text-shadow:  3px 3px 5px rgba(0,0,0,0.30);
+}
+
+.success {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color: green;
+  height: 50px;
+  font-size: 15em;
+  color: #ACDD86;
+  background-color: inherit;
+  animation-delay: 1s;
+  text-shadow: 3px 3px 16px white;
+}
+
+.error {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color: #DD4B3C;
+  height: 50px;
+  font-size: 15em;
+  background-color: inherit;
+  text-shadow: 3px 3px 16px white;
+}
+
+.fadeOut {
+  position: absolute;
+  animation: slideImage 2s;
+  -webkit-animation: slideImage 1.5s 1.5s ease-in-out;
+  -moz-animation: slideImage 1.5s 1.5s ease-in-out;
+}
+
+@media (max-width: 600px){
+  .Example {
+    font-size: 400%;
+    margin-bottom: 30px;
+  }
+  .goBackButton {
+    height: 10%;
+    font-size: 70%;
+  }
+}
+
+@-webkit-keyframes slideImage {
+  0%  {left:50%;}
+  100% {left:-700px;}
+}
+
+@-moz-keyframes slideImage {
+  0%  {left:50%;}
+  100% {left:-700px;}
+}
+
+@keyframes slideImage {
+  0%  {left:50%;}
+  100% {left:-700px;}
+}

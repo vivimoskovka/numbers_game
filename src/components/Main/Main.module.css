@@ -1,0 +1,42 @@
+.wrapper {
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+
+.title {
+  color: #DD4B3C;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 600%;
+  letter-spacing: 10px;
+  margin: 0 auto;
+  text-shadow:  3px 3px 5px rgba(0,0,0,0.30);
+}
+
+.button {
+  width: 30%;
+  height: 15%;
+  margin-top: 60px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 4px 4px 5px 5px rgba(0,0,0,0.10);
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  font-size: 200%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 550px){
+  .title {
+    font-size: 300%;
+  }
+  .button {
+    font-size: 100%;
+    margin-top: 100px;
+  }
+}

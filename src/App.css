@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 .App {
   text-align: center;
+  background-image: url(./Images/kidsgame_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
