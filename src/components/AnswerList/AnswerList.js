@@ -1,16 +1,16 @@
 import React from 'react'
-import AnswerItem from '../AnswerItem/AnswerItem'
+import {AnswerItem} from '../AnswerItem/AnswerItem'
 import classes from './AnswerList.module.css'
 
 
-const AnswerList = props => {
+export const AnswerList = props => {
   return(
     <ul className={classes.AnswerList}>
       {props.nums.map(num => {
         return(
           <AnswerItem
           onAnswerClick={props.onAnswerClick}
-          key={num.index}
+          key={num}
           >
             {num}
           </AnswerItem>
@@ -19,5 +19,3 @@ const AnswerList = props => {
     </ul>
   )
 }
-
-export default AnswerList

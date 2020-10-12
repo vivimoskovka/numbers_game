@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import classes from './NotFound.module.css'
 
-const NotFound = () => {
+export const NotFound = () => {
   return(
     <div className={classes.wrapper}>
       <h1 className={classes.error}>404</h1>
@@ -13,5 +13,3 @@ const NotFound = () => {
     </div>
   )
 }
-
-export default NotFound

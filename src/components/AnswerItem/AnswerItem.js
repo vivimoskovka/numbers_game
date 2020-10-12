@@ -1,10 +1,9 @@
 import React from 'react'
 import classes from './AnswerItem.module.css'
-import { useCssBreakpoints } from 'react-use-css-breakpoints';
 
 
-const AnswerItem = props =>  {
-  const breakpoint = useCssBreakpoints();
+export const AnswerItem = props =>  {
+
   return (
     <li className={classes.AnswerItem} onClick={() => props.onAnswerClick(props.children)}>
         <span className={classes.AnswerItemNum}>{props.children} </span>
@@ -12,5 +11,3 @@ const AnswerItem = props =>  {
 
   )
 }
-
-export default AnswerItem

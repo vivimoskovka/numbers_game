@@ -27,14 +27,18 @@
   }
 }
 
-.AnswerItem:hover {
-  background: #E66974;
-  transition: background .3s eas-in-out;
-  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
-  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
-  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.30);
+@media screen and (min-width: 600px) {
+  .AnswerItem:hover {
+    background: #E66974;
+    transition: background .3s eas-in-out;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.30);
+  }
 }
 
-.AnswerItem:hover .AnswerItemNum {
-  color: white;
+@media screen and (min-width: 600px) {
+  .AnswerItem:hover .AnswerItemNum {
+    color: white;
+  }
 }

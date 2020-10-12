@@ -8,7 +8,7 @@
 .title {
   color: #DD4B3C;
   font-family: 'Alfa Slab One', cursive;
-  font-size: 600%;
+  font-size: 500%;
   letter-spacing: 10px;
   margin: 0 auto;
   text-shadow:  3px 3px 5px rgba(0,0,0,0.30);
@@ -29,6 +29,7 @@
   text-align: center;
   outline: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 @media (max-width: 550px){
