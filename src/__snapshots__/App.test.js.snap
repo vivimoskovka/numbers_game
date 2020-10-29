@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders wondernumber div 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="wrapper"
+    >
+      <h1
+        class="title"
+      >
+        Wonder Number
+      </h1>
+      <a
+        href="/play"
+      >
+        <button
+          class="button"
+          component="[object Object]"
+          to="/play/"
+        >
+          Let's start!
+        </button>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

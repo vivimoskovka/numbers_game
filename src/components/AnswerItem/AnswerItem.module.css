@@ -9,8 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #73F9F1;
-  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.10);
+  background-color: #73f9f1;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .AnswerItemNum {
@@ -21,7 +21,7 @@
   color: #432483;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .AnswerItemNum {
     font-size: 2rem;
   }
@@ -29,11 +29,11 @@
 
 @media screen and (min-width: 600px) {
   .AnswerItem:hover {
-    background: #E66974;
-    transition: background .3s eas-in-out;
-    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
-    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
-    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.30);
+    background: #e66974;
+    transition: background 0.3s eas-in-out;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
   }
 }
 

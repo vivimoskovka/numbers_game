@@ -13,19 +13,19 @@
   align-items: stretch;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .AnswerList {
     height: 350px;
   }
 }
 
-@media (max-height: 630px){
+@media (max-height: 630px) {
   .AnswerList {
     height: 380px;
   }
 }
 
-@media (max-height: 550px){
+@media (max-height: 550px) {
   .AnswerList {
     height: 300px;
   }
