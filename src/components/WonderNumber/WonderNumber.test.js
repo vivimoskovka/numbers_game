@@ -8,24 +8,4 @@ import { AnswerItem } from "../AnswerItem/AnswerItem";
 
 
 describe('WonderNumber', () => {
-
-    test("redirects to home page", () => {
-        const wrapper = render(<
-            BrowserRouter >
-            <WonderNumber / >
-            </BrowserRouter>)
-
-    });
-
-    it('reads and updates coin counter', () => {
-        onclick = jest.fn()
-        const { getByTestId } = render(<
-            BrowserRouter >
-            <WonderNumber onClick={onclick}/ >
-            </BrowserRouter>)
-        expect(localStorage.getItem('scores')).toBeNull()
-        expect(getByTestId('counter')).toHaveTextContent(0)
-
-
-    })
-})
+ })
