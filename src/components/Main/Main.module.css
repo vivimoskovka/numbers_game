@@ -4,14 +4,13 @@
   padding-top: 100px;
 }
 
-
 .title {
-  color: #DD4B3C;
-  font-family: 'Alfa Slab One', cursive;
+  color: #dd4b3c;
+  font-family: "Alfa Slab One", cursive;
   font-size: 500%;
   letter-spacing: 10px;
   margin: 0 auto;
-  text-shadow:  3px 3px 5px rgba(0,0,0,0.30);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .button {
@@ -20,10 +19,10 @@
   margin-top: 60px;
   border-radius: 15px;
   border: none;
-  box-shadow: 4px 4px 5px 5px rgba(0,0,0,0.10);
+  box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.1);
   background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
   font-size: 200%;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
   text-shadow: #2e7ebd 0 1px 2px;
   text-decoration: none;
   text-align: center;
@@ -32,7 +31,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 550px){
+@media (max-width: 550px) {
   .title {
     font-size: 300%;
   }

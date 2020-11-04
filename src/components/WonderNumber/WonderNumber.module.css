@@ -3,7 +3,7 @@
   padding: 30;
   height: 100vh;
   width: 100%;
-  margin: 0
+  margin: 0;
 }
 
 .goBackButton {
@@ -11,10 +11,10 @@
   height: 30px;
   border-radius: 10px;
   border: none;
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.10);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
   background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
   font-size: 90%;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
   text-shadow: #2e7ebd 0 1px 2px;
   text-decoration: none;
   text-align: center;
@@ -41,7 +41,7 @@
   justify-content: space-around;
   border-radius: 10px;
   align-items: center;
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.10);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .CoinImg {
@@ -54,8 +54,8 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 24px;
-  font-family: 'Alfa Slab One', cursive;
-  color: #DD4B3C;
+  font-family: "Alfa Slab One", cursive;
+  color: #dd4b3c;
   text-align: right;
 }
 
@@ -66,32 +66,32 @@
 }
 
 .Example {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   margin: 0;
   font-size: 700%;
-  color: #471D5E;
-  text-shadow:  3px 3px 5px rgba(0,0,0,0.30);
+  color: #471d5e;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .success {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: green;
   height: 50px;
   font-size: 15em;
-  color: #ACDD86;
+  color: #acdd86;
   background-color: inherit;
   text-shadow: 3px 3px 16px white;
 }
 
 .error {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  color: #DD4B3C;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #dd4b3c;
   height: 50px;
   font-size: 15em;
   background-color: inherit;
@@ -111,12 +111,12 @@
   -moz-animation: rotateCoin 1.5s ease-in-out;
 }
 
-.addCoin1{
+.addCoin1 {
   transform: rotateY(6.284rad);
   transition: 300ms linear all;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .Example {
     font-size: 400%;
   }
@@ -128,16 +128,28 @@
 /* _______________________________________________________________________________ */
 
 @-webkit-keyframes slideImage {
-  0%  {left:50%;}
-  100% {left:-700px;}
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: -700px;
+  }
 }
 
 @-moz-keyframes slideImage {
-  0%  {left:50%;}
-  100% {left:-700px;}
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: -700px;
+  }
 }
 
 @keyframes slideImage {
-  0%  {left:50%;}
-  100% {left:-700px;}
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: -700px;
+  }
 }

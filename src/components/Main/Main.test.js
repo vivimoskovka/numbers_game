@@ -1,16 +1,17 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
-import App from "./App";
+import { fireEvent, getByRole, getByText, render, screen } from "@testing-library/react";
+import {Main} from "./Main";
+import {Button} from "./Main";
 import { BrowserRouter, Link } from "react-router-dom";
 
-
-describe("App", () => {
-    it("renders app component", () => {
+describe("Main", () => {
+    it("renders Main component", () => {
         render( <
             BrowserRouter >
-            <App / >
+            <Main / >
             </BrowserRouter>
         );
+        screen.debug();
         expect(screen.getByText(/start/i)).toBeInTheDocument();
         expect(screen.getByRole('button')).toBeInTheDocument();
     });
